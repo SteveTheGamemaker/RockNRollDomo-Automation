@@ -74,9 +74,9 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ## Contact
 
-Your Name - [YourEmail@example.com](mailto:YourEmail@example.com)
+Your Name - [jmgg_1998@hotmail.com](mailto:jmgg_1998@hotmail.com)
 
-Project Link: [https://github.com/[YourUsername]/RockNRollDomo-Automation](https://github.com/[YourUsername]/RockNRollDomo-Automation)
+Project Link: [https://github.com/SteveTheGamer/RockNRollDomo-Automation](https://github.com/SteveTheGamer/RockNRollDomo-Automation)
 
 ## Acknowledgements
 
