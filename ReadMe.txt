@@ -15,7 +15,7 @@ The player's objective is to tap these notes as they align with the circles. Thi
 
 ## Emulator Setup and Configuration
 
-To begin, ensure you have a DS emulator with DSi mode enabled. For this project, melonDS was used, but any emulator should work. Make sure you have the necessary firmware or NAND files for the DSi.
+To begin, ensure you have a DS emulator with DSi mode enabled. For this project, melonDS was used, but any emulator that can do DSi mode should work(not desmume). Make sure you have the necessary firmware or NAND files for the DSi.
 
 ### Screen Capture Setup
 
