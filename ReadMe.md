@@ -46,11 +46,11 @@ The bottom of the window will show you the X and Y coordinates of the position t
 
 1. Clone the repository:
 
-   'git clone https://github.com/SteveTheGamemaker/RockNRollDomo-Automation.git'
+   `git clone https://github.com/SteveTheGamemaker/RockNRollDomo-Automation.git`
 
 2. Install the required packages:
 
-   'pip install opencv-python pydirectinput mss'
+   `pip install opencv-python pydirectinput mss`
 
 
 ### Usage
@@ -59,7 +59,7 @@ Start your emulator. Start the game.
 
 Run the script in the cloned directory:
 
-python rock_n_roll_domo.py
+`python rock_n_roll_domo.py`
 
 Make sure to click back on the emulator window as it has to be in focus for the key presses to register.
 
