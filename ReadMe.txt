@@ -68,13 +68,9 @@ Make sure to click back on the emulator window as it has to be in focus for the 
 
 Contributions are encouraged and appreciated. Follow the standard fork, branch, and pull request workflow.
 
-## License
-
-Distributed under the MIT License. See `LICENSE` for more information.
-
 ## Contact
 
-Your Name - [jmgg_1998@hotmail.com](mailto:jmgg_1998@hotmail.com)
+Steve - [jmgg_1998@hotmail.com](mailto:jmgg_1998@hotmail.com)
 
 Project Link: [https://github.com/SteveTheGamer/RockNRollDomo-Automation](https://github.com/SteveTheGamer/RockNRollDomo-Automation)
 
