@@ -79,12 +79,6 @@ Further Debugging: If the problem continues, experiment with other libraries for
 
 Contributions are encouraged and appreciated. Follow the standard fork, branch, and pull request workflow.
 
-## Contact
-
-Steve - [jmgg_1998@hotmail.com](mailto:jmgg_1998@hotmail.com)
-
-Project Link: [https://github.com/SteveTheGamer/RockNRollDomo-Automation](https://github.com/SteveTheGamer/RockNRollDomo-Automation)
-
 ## Acknowledgements
 
 - [Nintendo DSi](https://www.nintendo.com/)
