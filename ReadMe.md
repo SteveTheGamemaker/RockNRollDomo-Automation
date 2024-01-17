@@ -69,10 +69,15 @@ Q: Why isn't the emulator registering my key presses?
 A: Several factors could be causing this issue:
 
 Emulator Window Focus: Ensure the emulator window is the active window when the script is running.
+
 Screen Region and Pixel Locations: Confirm that you have correctly defined the screen region and pixel locations in the script.
+
 Key Configuration: The script should use Left, Up, Right, and 'A' for inputs. Double-check these are correctly set.
+
 Emulator Compatibility: Some emulators may not recognize simulated key presses. If you've verified all of the above and it's still not working, consider switching to a different emulator.
+
 Library Usage: The script uses 'pydirectinput' by default. If issues persist, try replacing 'pydirectinput' with 'pyautogui' in the code.
+
 Further Debugging: If the problem continues, experiment with other libraries for simulating keyboard input, which may require additional Python knowledge. For more in-depth troubleshooting, consider seeking help from communities like Stack Overflow or reaching out for assistance from a Python programmer or ChatGPT.
 
 ## Contributing
