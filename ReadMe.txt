@@ -81,8 +81,8 @@ Contributions are encouraged and appreciated. Follow the standard fork, branch, 
 
 ## Acknowledgements
 
-- [Nintendo DSi](https://www.nintendo.com/)
-- [Python](https://www.python.org/)
-- [OpenCV](https://opencv.org/)
-- [PyDirectInput](https://github.com/learncodebygaming/pydirectinput)
-- [MSS](https://python-mss.readthedocs.io/)
+- Nintendo: https://www.nintendo.com/
+- Python: https://www.python.org/
+- OpenCV: https://opencv.org/
+- PyDirectInput: https://github.com/learncodebygaming/pydirectinput
+- MSS: https://python-mss.readthedocs.io/
