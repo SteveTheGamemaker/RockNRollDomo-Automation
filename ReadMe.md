@@ -46,11 +46,11 @@ The bottom of the window will show you the X and Y coordinates of the position t
 
 1. Clone the repository:
 
-   git clone https://github.com/SteveTheGamemaker/RockNRollDomo-Automation.git
+   'git clone https://github.com/SteveTheGamemaker/RockNRollDomo-Automation.git'
 
 2. Install the required packages:
 
-   pip install opencv-python pydirectinput mss
+   'pip install opencv-python pydirectinput mss'
 
 
 ### Usage
