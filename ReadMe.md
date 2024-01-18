@@ -1,3 +1,4 @@
+![Rock-n-Roll Domo Automation](./images/rocknrolldomo.png "Rock-n-Roll Domo Automation")
 
 # RockNRollDomo-Automation
 
