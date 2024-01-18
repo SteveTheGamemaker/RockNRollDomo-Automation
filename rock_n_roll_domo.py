@@ -32,7 +32,7 @@ def change_lane_and_hit(lane_index):
     # Switch lanes if the target lane is not currently selected. Set PAUSE to 0 to enable immediate note hitting after lane switch.
     if selected_lane != lane_index:
         pydirectinput.PAUSE = 0  # Eliminate delay to allow instant note hitting post-lane switch
-        pydirectinput.keyDown(lane_key)
+        pydirectinput.keyDown(lane_key) # Hold down the key. This is important because at a PAUSE of 0, a single press is too fast to be registered by the emulator. It will be released AFTER the A key is pressed and the PAUSE has been set to non zero.
 
     # Hit the note
     pydirectinput.PAUSE = presstime
