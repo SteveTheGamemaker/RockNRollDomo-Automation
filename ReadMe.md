@@ -64,7 +64,7 @@ Run the script in the cloned directory:
 
 Make sure to click back on the emulator window as it has to be in focus for the key presses to register.
 
-# Q&A
+# Troubleshooting
 
 Q: Why isn't the emulator registering my key presses?
 A: Several factors could be causing this issue:
