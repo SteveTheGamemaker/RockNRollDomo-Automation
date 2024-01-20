@@ -4,7 +4,7 @@ from mss import mss
 import pydirectinput
 
 # Define the region of the screen to capture for the game
-monitor = {"top": 1223, "left": 2535, "width": 680, "height": 370}
+monitor = {"left": 2535, "top": 1223, "width": 680, "height": 370}
 
 # Define each lane's characteristics: pixel coordinates, expected color, and associated directional key
 lanes = [
@@ -24,15 +24,15 @@ def colors_are_similar(color1, color2):
     """Check if two colors are similar based on a set threshold."""
     return all(abs(color1[i] - color2[i]) < color_change_threshold for i in range(3))
 
-def change_lane_and_hit(lane_index):
+def change_lane_and_hit(lane_index, img):
     """Change to the specified lane and simulate pressing the 'A' button."""
     global selected_lane
     lane_key = lanes[lane_index]["key"]
     
-    # Switch lanes if the target lane is not currently selected. Set PAUSE to 0 to enable immediate note hitting after lane switch.
+    # Switch lanes if the target lane is not currently selected.
     if selected_lane != lane_index:
         pydirectinput.PAUSE = 0  # Eliminate delay to allow instant note hitting post-lane switch
-        pydirectinput.keyDown(lane_key) # Hold down the key. This is important because at a PAUSE of 0, a single press is too fast to be registered by the emulator. It will be released AFTER the A key is pressed and the PAUSE has been set to non zero.
+        pydirectinput.keyDown(lane_key)
 
     # Hit the note
     pydirectinput.PAUSE = presstime
@@ -55,7 +55,7 @@ with mss() as sct:
         for i, lane in enumerate(lanes):
             current_color = img_bgr[lane["pixel"][1], lane["pixel"][0]]
             if colors_are_similar(current_color, lane["color"]):
-                change_lane_and_hit(i)
+                change_lane_and_hit(i, img_bgr)
 
         # Display the captured image (for debugging purposes)
         cv2.imshow("Screen Capture", img_bgr)
